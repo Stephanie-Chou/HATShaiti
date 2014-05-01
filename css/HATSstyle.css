@@ -169,83 +169,6 @@ panel{
 
 
 
-#sliding-navigation
-{
-/*	top: 45px;
-	display: none;
-	list-style-type: none;
-	display: inline;
-	position: absolute;
-	margin-top: 170px;
-	width: 140px;
-	text-align: right;*/
-	-webkit-transform: translate3d(0,0,0);
-	/*z-index: 2;*/
-	
-	margin:			0;
-
-
-	padding:		0;
-
-
-	list-style:		none;
-
-
-	background-color:#e8f8ff;
-
-	border: none;
-	position:relative;
-	color:#127aa7;
-
-	z-index:50;
-}
-
-#sliding-navigation li
-{
-	list-style-type: none;
-	font-size:1.5em;
-	font color: #127aa7;
-	line-height:1.2307em;
-	text-transform:uppercase;
-}
-
-#sliding-navigation ul
-{
-float:left;
-width:100%;
-padding:0;
-margin:0;
-list-style-type:none;
-}
-
-#sliding-navigation a
-{
-	text-decoration: none;
-	float:left;
-		display:inline-block;
-		zoom:1;
-		z-index:20;
-		font color:#127aa7;
-		padding:22px 32px 0px 34px;
-		height:47px;
-		margin-right:1px;
-}
-
-#sliding-navigation a.strong{
-	font color:#127aa7;
-}
-/*
-#sliding-navigation .sliding-element{
-	font color: #127aa7;
-	}
-*/
-.BlockColumn
-{
-columns:100px 2;
-width:50%
--webkit-columns:100px 2; /* Safari and Chrome */
--moz-columns:100px 2; /* Firefox */
-}
 
 	/* Content */
 
@@ -340,51 +263,6 @@ a:hover, a:focus { color: #D8D8D8;}
 
 a:active, a:visited { }
 
-
-
-a circle {
-    height: 30px;
-    width: 30px;
-    border-radius: 100%;
-    background-color: #FF9C5B;
-    display: inline-block;
-}
-circle{
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    background-color: #FF9C5B;
-    display: inline-block;
-}
-
-circle p{
-	padding-top: 30px;
-	vertical-align: middle;
-}
-.blueOne {
-    background-color: #127aa7;/*#2b292a*/
-}
-
-.blueTwo{
-    background-color:#e8f8ff ; /*#958f92;*/
-}
-
-.blueThree{
-	background-color: #064e6e; /*#201f20;*/
-	}
-.white{
-	background-color:#8dddff; /*#959193;*/
-	/*border: 1px solid #064e6e;*/
-	}
-	
-.largeCircle{
-	height:200px;
-	width:200px;
-	border color: #e8f8ff;
-	border size: 50px;
-	position:relative;
-	display: inline-block;
-}	
 
 
 p navigation{
@@ -745,7 +623,7 @@ h6 {
 }
 
 
-
+/* SO FARE EVERYTHING BELOW HERE IS NOT BEING USED*/
 
 
 /*  Header styles */
