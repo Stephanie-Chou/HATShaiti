@@ -23,7 +23,7 @@ body {
 	background-color: #201f20;
 
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 	font-size:1.0em; 
 
@@ -63,12 +63,33 @@ panel{
 	float:left;
 	padding: 0px;
 	margin:0px;
-	background-color: #000; /*#201f20;*/
+	background-color: #fff; /*#201f20;*/
 	background-repeat: no-repeat;
+
 	position:center;
 }
+#futureLeaders{
+	background: url("../images/haiti2013-17.jpg" ) center center fixed;
+	background size:100%;
+	background-repeat: no-repeat;
+	max-height:100%;
+	overflow: hidden;
 
-
+ }
+.crop{
+	float:left;
+	margin:0em 0px .5em 0;
+	overflow:hidden; /* this is important */
+	background: center fixed;
+	border:1px solid #ccc;
+	}
+	/* input values to crop the image: top, right, bottom, left */
+.crop img{
+	margin:-230px 0px -70px 0px;
+	}
+#smallCrop{
+	margin:-200px 0px -200px 0px;
+}
 
 #red{
 	/*background: url("../images/beach.jpg") center center fixed;*/
@@ -135,7 +156,7 @@ panel{
 	width:100%;
 	height:60px;
 	background-color:#ff9400;
-	margin-bottom:10px;
+	margin-bottom:0px;
 
 }
 #navigation li{
@@ -499,8 +520,9 @@ var {color:#949494;}
 
 h1 {
 	font-size:8.1666em;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	line-height:1.2307em;
-	color:#fff;
+	color:#000;
 	padding:2px 0 8px 0;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
@@ -539,6 +561,7 @@ h1 {
 
 h2 {
 	font-size:5.75em;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	line-height:1.2307em;
 	color:#000;
 	/*text-transform:uppercase;*/
@@ -552,6 +575,7 @@ h2 {
 
 h3 {
 	font-size:4.75em;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	line-height:1.2307em;
 	color:#000;
 	/*text-transform:uppercase;*/
