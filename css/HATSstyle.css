@@ -89,7 +89,6 @@ panel{
 	margin:0em 0px .5em 0;
 	overflow:hidden; /* this is important */
 	background: center fixed;
-	border:1px solid #ccc;
 	}
 	/* input values to crop the image: top, right, bottom, left */
 .crop img{
@@ -107,7 +106,7 @@ panel{
 }
 
 #lightRed{
-	background-color:#BF3030;
+	background-color:#a61912;
 }
 
 #green{
@@ -168,16 +167,24 @@ panel{
 
 }
 #navigation li{
-	font color:#fff;
-	height:60px;
-	width: 80px;
+	
+	height:40px;
+	
 	padding-right:5px;
 	padding-left:5px;
+	padding-top: 20px;
+
 	margin-top:30px;
 	list-style-type:none;
 	display:inline-block;
 	float:right;
 	
+}
+
+#navigation a{
+	font color:#fff;
+	font-size: 1.66em;
+
 }
 
 #navigation a:img{
@@ -580,7 +587,7 @@ h1 {
 h2 {
 	font-size:5.75em;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	line-height:1.2307em;
+	/*line-height:1.2307em;*/
 	color:#000;
 	/*text-transform:uppercase;*/
 	padding:10px 0 5px 0;
@@ -3021,9 +3028,9 @@ table tr:hover td {
 
 
 .column{
-	background-color: #fff;
+	background-color: #000;
 	margin: 15px 0 15px 0;
-	opacity: .6;
+	opacity: .5;
 	display: inline-block;
 }
 
@@ -3031,6 +3038,7 @@ table tr:hover td {
 
 	display: inline-block;
 }
+
 
 #col3{
 	width: 33%;
