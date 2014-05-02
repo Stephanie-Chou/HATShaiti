@@ -63,6 +63,7 @@ panel{
 	float:left;
 	padding: 0px;
 	margin:0px;
+	position: relative;
 	background-color: #fff; /*#201f20;*/
 	background-repeat: no-repeat;
 
@@ -172,7 +173,7 @@ panel{
 	
 }
 
-#navigation img{
+#navigation a:img{
 	float: left;
 	height:inherit;
 	display: inline-block;
@@ -3009,76 +3010,21 @@ table tr:hover td {
 /*columns*/
 
 
-.col-1 {
 
-	display:block;
-	float:left;
-	width:50%;
-	height:100%;
+
+.column{
+
+	display: inline-block;
 }
 
-/*.col-1 img{
-	width:100%;
-}
-*/
-.col-1 span{
+.column li{
 
-	/*width: 100%;
-	min-height:300px;*/
-		
-font-family: 'Belleza', sans-serif;
-font color:#000;
-
-padding-top:5px;
-
-
-
+	display: inline-block;
 }
 
-.col-2 {
-
-	display: block;
-	float:right;
-	width:50%;
-	height:100%;
-
+#col3{
+	width: 33%;
 }
-
-.col-2 img{
-	height:inherit;
-	padding-top: 20px;
-}
-
-.col-2 span{
-
-	/*width: 100%;
-	min-height:300px;*/
-		
-font-family: 'Belleza', sans-serif;
-font color:#000;
-
-padding-top:5px;
-
-
-
-}
-
-.col-3 {
-	display:block;
-	margin-right: 40px;
-	float:left;
-	width:250px;
-}
-.col-3 img{
-margin: 20px 20px 20px 20px;
-width:100%;
-}
-
-.col-3 span{
-	text-align:center;
-	text-indent:20px;
-}
-
 
 /**/
 
