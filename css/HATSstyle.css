@@ -77,6 +77,13 @@ panel{
 	overflow: hidden;
 
  }
+ #planVisit{
+ 	background: url("../images/haiti2013-343.jpg" ) center center fixed;
+	background size:100%;
+	background-repeat: no-repeat;
+	max-height:100%;
+	overflow: hidden;
+ }
 .crop{
 	float:left;
 	margin:0em 0px .5em 0;
@@ -536,6 +543,7 @@ h1 {
 	padding:2px 0 8px 0;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
+	margin-bottom: -30px;
 }
 
 
@@ -609,7 +617,7 @@ h5 {
 	color:#000000;
 	/*text-transform:uppercase;
 	letter-spacing:-1px;*/
-	margin-top:0px;
+	margin-top:30px;
 	margin-bottom:-3px;
 }
 
@@ -3013,7 +3021,9 @@ table tr:hover td {
 
 
 .column{
-
+	background-color: #fff;
+	margin: 15px 0 15px 0;
+	opacity: .6;
 	display: inline-block;
 }
 
