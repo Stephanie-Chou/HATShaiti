@@ -154,22 +154,29 @@ panel{
 
 #navigation{
 	width:100%;
-	height:60px;
+	height:90px;
 	background-color:#ff9400;
 	margin-bottom:0px;
 
 }
 #navigation li{
 	font color:#fff;
-	height:40px;
+	height:60px;
 	width: 80px;
 	padding-right:5px;
 	padding-left:5px;
-	margin-top:20px;
+	margin-top:30px;
 	list-style-type:none;
 	display:inline-block;
 	float:right;
 	
+}
+
+#navigation img{
+	float: left;
+	height:inherit;
+	display: inline-block;
+
 }	
 
 /*Carousel
@@ -301,6 +308,8 @@ p navigation{
 	display: inline;
 	
 }
+
+
 
 blockquote {
 
@@ -3846,9 +3855,6 @@ footer {
 
 
 	height:91px;
-
-
-	background:url(../images/footer-bg.gif) top center repeat-y;
 
 
 	color:#76787b;
