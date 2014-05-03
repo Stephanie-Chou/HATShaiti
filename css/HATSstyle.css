@@ -23,7 +23,8 @@ body {
 	background-color: #201f20;
 
 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Metrophobic', sans-serif;
 
 	font-size:1.0em; 
 
@@ -78,12 +79,41 @@ panel{
 
  }
  #planVisit{
+ 	
  	background: url("../images/haiti2013-343.jpg" ) center center fixed;
 	background size:100%;
 	background-repeat: no-repeat;
-	max-height:100%;
 	overflow: hidden;
  }
+
+ #prayers{
+ 	
+ 	background:
+ 	linear-gradient(
+      rgba(166, 0, 0, 0.75), 
+      rgba(166, 0, 0, 0.75)
+    ), url("../images/haiti2013-348.jpg" ) right center fixed;
+	background-color: #A60000; /*#201f20;*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+
+ }
+
+ .tint{
+ 	
+    height: inherit;
+    background-repeat: no-repeat;
+
+ }
+
+
+#prayers p{
+	color:#fff ;
+}
+#prayers h5{
+	color:#fff ;
+}
 .crop{
 	float:left;
 	margin:0em 0px .5em 0;
@@ -157,8 +187,8 @@ panel{
 	padding-right:5%;
 }
 .normalMargin{
-	padding-left:15%;
-	padding-right:15%;
+	padding-left:20%;
+	padding-right:20%;
 }
 
 
@@ -196,6 +226,8 @@ panel{
 	display: inline-block;
 
 }	
+
+
 
 /*Carousel
 #myCarousel{
@@ -623,11 +655,12 @@ h4 {
 
 h5 {
 	font-size:2.666em;
-	/*line-height: 1em; 1.2307em;*/
+	line-height: 1em; 1.2307em;
 	color:#000000;
-	/*text-transform:uppercase;
-	letter-spacing:-1px;*/
+	text-transform:uppercase;
+	/*letter-spacing:-1px;*/
 	margin-top:30px;
+	padding-top:30px;
 	margin-bottom:-3px;
 }
 
@@ -3134,95 +3167,17 @@ table tr:hover td {
 	}
 
 
-/*borders*/	
 
+/*boarders*/
 
-.border {
-
-
-	background:url(../images/border-bg.gif) left bottom repeat-x;
-
-
-	padding-bottom:15px;
-
-
-	margin-bottom:15px;
-
+.border{
+	border-style: 1px solid #000;
+	border-top-style:solid;
+	border-right-style:none;
+	border-bottom-style:solid;
+	border-left-style:none;
 
 }
-
-
-.border1 {
-
-
-	background:url(../images/border-bg.gif) left bottom repeat-x;
-
-
-	padding-bottom:20px;
-
-
-	margin-bottom:20px;
-
-
-	width:100%;
-
-
-}
-
-
-.border2 {
-
-
-	background:url(../images/border-bg.gif) left bottom repeat-x;
-
-
-	padding-bottom:28px;
-
-
-	margin-bottom:28px;
-
-
-	width:100%;
-
-
-}
-
-
-.border3 {
-
-
-	background:url(../images/border-bg.gif) left bottom repeat-x;
-
-
-	padding-bottom:34px;
-
-
-	margin-bottom:28px;
-
-
-	width:100%;
-
-
-}
-
-
-.border4 {
-
-
-	background:url(../images/border-bg.gif) left bottom repeat-x;
-
-
-	padding-bottom:25px;
-
-
-	margin-bottom:25px;
-
-
-	width:100%;
-
-
-}
-
 
 /**/
 
