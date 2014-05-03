@@ -86,12 +86,13 @@ panel{
 	overflow: hidden;
  }
 
+/*tinted stuff*/
  #prayers{
  	
  	background:
  	linear-gradient(
-      rgba(166, 0, 0, 0.75), 
-      rgba(166, 0, 0, 0.75)
+      rgba(91, 3, 3, 0.85), 
+      rgba(91, 3, 3, 0.85)
     ), url("../images/haiti2013-348.jpg" ) right center fixed;
 	background-color: #A60000; /*#201f20;*/
 	background-repeat: no-repeat;
