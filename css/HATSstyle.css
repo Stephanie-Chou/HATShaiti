@@ -86,11 +86,15 @@ panel{
 }
 
 #futureLeaders{
-	background: url("../images/Haiti-color photos1.jpg" ) center center;
+	background: url("../images/Darkblue Visit Us.jpg" ) center center;
 	background-color: #00782d; 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
+ }
+
+ #futureLeaders h5{
+ 	text-transform: none;
  }
 
 #donate{
