@@ -18,7 +18,7 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body { 
 
 
-	/*background:url(../images/body-bg.gif) top center repeat-y;*/
+	background:url("../images/haiti2013-17.jpg") center center fixed;
 
 	background-color: #201f20;
 
@@ -55,6 +55,9 @@ html, body { height:100%;}
 
 
 ---------------------------------------- */
+
+
+
 
 /*panels*/
 panel{
