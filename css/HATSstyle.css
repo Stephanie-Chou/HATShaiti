@@ -86,47 +86,44 @@ panel{
 }
 
 #futureLeaders{
-	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background: url("../images/Haiti-color photos1.jpg" ) center center;
 	background-color: #00782d; 
-	background size:100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
  }
 
 #donate{
-	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background: url("../images/Haiti-color photos2.jpg" ) center center;
 	background-color: #A60000;
-	background size:100%;
+	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
 #blog{
-	background: url("../images/haiti2013-348.jpg" ) center center;
+	background: url("../images/Haiti-color photos3.jpg" ) center center;
 	background-color: #a61912;
-	background size:100%;
+	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
 #partnerships{
-	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background: url("../images/Haiti-color photos4.jpg" ) center center;
 	background-color: #00782d;
-	background size:100%;
+	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
  /*visit panels*/
  #planVisit{
- 	
-<<<<<<< HEAD
- 	background: url("../images/haiti2013-343.jpg" ) center center fixed;
+
 	background-size:contain;
-=======
+
  	background: url("../images/haiti2013-544.jpg" ) center center fixed;
 	background size:100%;
->>>>>>> FETCH_HEAD
 	background-repeat: no-repeat;
 	overflow: hidden;
  }
@@ -379,23 +376,12 @@ p {
 color:#000;
 text-align: justify;
 font-size:1.5em;
-<<<<<<< HEAD
 padding-top:2em;
 padding-bottom:2em;
 line-height: 1.5em;
 text-align: justify;
 }
-=======
-line-height: 1.5em;
-padding-top:2px;
-<<<<<<< HEAD
-padding-bottom:2px;
-line-height: 1em;
-}
-=======
-padding-bottom:2px;}
->>>>>>> adb8c6a29fda06bab1b36d10a7af03c018379e55
->>>>>>> cd760f7282dc6e707c289af3f769e211ac9630bc
+
 
 
 
@@ -643,12 +629,9 @@ var {color:#949494;}
 
 
 h1 {
-<<<<<<< HEAD
-	font-size:5em;
+
 	font-family: 'Roboto', Helvetica, sans-serif;
-=======
 	font-size:8.1666em;
->>>>>>> adb8c6a29fda06bab1b36d10a7af03c018379e55
 	line-height:1.2307em;
 	text-align: center;
 	color:#000;
