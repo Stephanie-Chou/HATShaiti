@@ -156,7 +156,7 @@ panel{
 
 	background-size:contain;
 
- 	background: url("../images/haiti2013-544.jpg" ) center center fixed;
+ 	background: url("../images/Black Tint.jpg" ) center center fixed;
 	background size:100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -709,7 +709,7 @@ h2 {
 	font-family:'Oswald', sans-serif;
 	text-align: center;
 	/*line-height:1.2307em;*/
-	color:#000;
+	color:#fff;
 	/*text-transform:uppercase;*/
 	padding:10px 0 5px 0;
 	letter-spacing:-1px;
