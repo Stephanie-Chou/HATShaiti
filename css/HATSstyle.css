@@ -123,6 +123,14 @@ panel{
 	overflow: hidden;
 }
 
+#partnerships p{
+	color:#fff;
+}
+
+#partnerships h5{
+	color:#fff;
+}
+
  /*visit panels*/
  #planVisit{
 
@@ -3832,6 +3840,12 @@ figure.fright {
 
 ---------------------------------------- */
 
+.footer{
+}
+
+.footer p{
+	color: #fff;
+}
 
 footer {
 

@@ -4792,6 +4792,11 @@ a.list-group-item-danger.active:focus {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+
+/*stephanie added this*/
+.panel-footer p{
+  color:#fff;
+}
 .panel > .list-group {
   margin-bottom: 0;
 }
