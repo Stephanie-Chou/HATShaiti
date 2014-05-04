@@ -24,7 +24,7 @@ body {
 
 
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-family: 'Metrophobic', sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 	font-size:1.0em; 
 
@@ -331,7 +331,9 @@ p {
 color:#000;
 font-size:1.5em;
 padding-top:2px;
-padding-bottom:2px;}
+padding-bottom:2px;
+line-height: 1em;
+}
 
 
 
