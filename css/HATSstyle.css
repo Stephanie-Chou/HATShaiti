@@ -24,7 +24,7 @@ body {
 
 
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	font-family: 'Metrophobic', sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 	font-size:1.0em; 
 
@@ -330,8 +330,11 @@ panel{
 p {	
 color:#000;
 font-size:1.5em;
-padding-top:2px;
-padding-bottom:2px;}
+padding-top:2em;
+padding-bottom:2em;
+line-height: 1.5em;
+text-align: justify;
+}
 
 
 
@@ -579,11 +582,12 @@ var {color:#949494;}
 
 
 h1 {
-	font-size:8.1666em;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size:5em;
+	font-family: 'Roboto', Helvetica, sans-serif;
 	line-height:1.2307em;
 	color:#000;
 	padding:2px 0 8px 0;
+	text-align: center;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
 	margin-bottom: -30px;
@@ -663,6 +667,7 @@ h5 {
 	margin-top:30px;
 	padding-top:30px;
 	margin-bottom:-3px;
+	text-align: center;
 }
 
 
