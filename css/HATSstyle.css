@@ -18,7 +18,8 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body { 
 
 
-	background:url("../images/haiti2013-17.jpg") center center fixed;
+	background:url(../images/PalmTree2.jpg) center center fixed;
+	background-size: 100%;
 
 	background-color: #201f20;
 
