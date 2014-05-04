@@ -29,7 +29,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 
 	font-size:1.0em; 
-
+	color: #fff;
 
 	line-height:1.75em;
 
@@ -95,10 +95,16 @@ panel{
 	background-repeat: no-repeat;
 	overflow: hidden;
  }
-
+/*
  #futureLeaders h5{
  	text-transform: none;
+ 	color: #000;
  }
+
+ #futureLeaders p{
+ 	color:#000;
+ }
+*/
 
 #donate{
 	background: url("../images/Haiti-color photos2.jpg" ) center center;
@@ -107,15 +113,26 @@ panel{
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
+/*
+#blog h5{
+	color:#000;
+}
+
+#blog p{
+	color:#000;
+}
+*/
 
 #blog{
 	
 
 	background-color: #f4b85e;
+
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
+
 
 #partnerships{
 	background: url("../images/Haiti-color photos4.jpg" ) center center;
@@ -123,6 +140,14 @@ panel{
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
+}
+
+#partnerships p{
+	color:#fff;
+}
+
+#partnerships h5{
+	color:#fff;
 }
 
  /*visit panels*/
@@ -189,7 +214,7 @@ panel{
 
 }
 #yellow{
-	background-color: #FFDC73;
+	background-color: #9E9485;/*#FFDC73;*/
 
 }
 
@@ -376,7 +401,7 @@ panel{
 
 
 p {	
-color:#000;
+color:#fff;
 text-align: justify;
 font-size:1.5em;
 padding-top:2em;
@@ -715,7 +740,7 @@ h5 {
 	font-size:2.666em;
 	line-height: 1em; 1.2307em;
 	text-align: center;
-	color:#000000;
+	color:#fff;
 	text-transform:uppercase;
 	/*letter-spacing:-1px;*/
 	margin-top:30px;
@@ -3826,6 +3851,26 @@ figure.fright {
 
 ---------------------------------------- */
 
+.footer{
+	background-color:#9E9485;
+	width:100%;
+	/*min-height:100%;*/
+	border:none;
+	float:left;
+	padding:0 10px 0 10px;
+	margin:0px;
+	position: relative;
+	background-repeat: no-repeat;
+
+	position:center;
+}
+
+
+
+
+.footer p{
+	color: #fff;
+}
 
 footer {
 
