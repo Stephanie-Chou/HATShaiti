@@ -18,8 +18,14 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body { 
 
 
+<<<<<<< HEAD
 	background:url("../images/haiti2013-49.jpg") center center fixed;
  	background-size:100% 
+=======
+	background:url(../images/PalmTree2.jpg) center center fixed;
+	background-size: 100%;
+
+>>>>>>> f31b6e7b12f03773c865b6e91f7f8f724e03acf0
 	background-color: #201f20;
 
 
@@ -87,7 +93,11 @@ panel{
 
 #futureLeaders{
 	
+<<<<<<< HEAD
 	background-color: #f4b85e; 
+=======
+	background-color: #511b00; 
+>>>>>>> f31b6e7b12f03773c865b6e91f7f8f724e03acf0
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -107,7 +117,11 @@ panel{
 
 #blog{
 	
+<<<<<<< HEAD
 	background-color: #f4b85e;
+=======
+	background-color: #511b00;
+>>>>>>> f31b6e7b12f03773c865b6e91f7f8f724e03acf0
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -229,8 +243,8 @@ panel{
 	padding-right:5%;
 }
 .normalMargin{
-	padding-left:20%;
-	padding-right:20%;
+	padding-left:15%;
+	padding-right:15%;
 }
 
 
@@ -277,6 +291,9 @@ panel{
 
 }	
 
+.navbar-header{
+	
+}
 
 
 /*Carousel
@@ -3247,13 +3264,6 @@ table tr:hover td {
 
 
 
-.container {
-
-
-	width:100%;
-
-
-}
 
 
 .button1-margin {
