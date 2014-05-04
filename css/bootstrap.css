@@ -289,12 +289,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #fff;/*#428bca;*/
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #fff;/*#2a6496;*/
   text-decoration: underline;
 }
 a:focus {
@@ -2120,7 +2120,7 @@ fieldset[disabled] .btn-primary.active {
   border-color: #357ebd;
 }
 .btn-primary .badge {
-  color: #428bca;
+  color: #428bca; /*BUTTON COLOR*/
   background-color: #fff;
 }
 .btn-success {
