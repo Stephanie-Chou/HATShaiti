@@ -88,8 +88,9 @@ panel{
 }
 
 #futureLeaders{
+	
+	background-color: #f4b85e; 
 
-	background-color: #511b00; 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -109,7 +110,8 @@ panel{
 
 #blog{
 	
-	background-color: #511b00;
+
+	background-color: #f4b85e;
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -135,28 +137,20 @@ panel{
  }
 
 
- #prayers{
-	/*tinted stuff*/ 	
-	background:
- 	linear-gradient(
-      rgba(91, 3, 3, 0.85), 
-      rgba(91, 3, 3, 0.85)
-    ), url("../images/haiti2013-348.jpg" ) right center fixed;
+ #prayers{ 	
+	background: url("../images/OrangeT.jpg" ) center center fixed;
+	background size 50%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+ }
 
-	/*background: url("../images/haiti2013-348.jpg") center center fixed;*/
+	/*background: url("../images/Haiti-color photos3.jpg") center center fixed;*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
 
  }
 
-
-
-#prayers p{
-	color:#fff ;
-}
-#prayers h5{
-	color:#fff ;
 }
 .crop{
 	float:left;
