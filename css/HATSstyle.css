@@ -18,7 +18,7 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body { 
 
 
-	/*background:url(../images/body-bg.gif) top center repeat-y;*/
+	background:url("../images/haiti2013-17.jpg") center center fixed;
 
 	background-color: #201f20;
 
@@ -56,10 +56,13 @@ html, body { height:100%;}
 
 ---------------------------------------- */
 
+
+
+
 /*panels*/
 panel{
 	width:100%;
-	min-height:100%;
+	/*min-height:100%;*/
 	border:none;
 	float:left;
 	padding: 20px;
@@ -70,14 +73,51 @@ panel{
 
 	position:center;
 }
-#futureLeaders{
-	background: url("../images/haiti2013-17.jpg" ) center center fixed;
+
+
+/*index Panels*/
+
+#video{
+	background: url("../images/haiti2013-541.jpg" ) center center;
 	background size:100%;
 	background-repeat: no-repeat;
-	max-height:100%;
 	overflow: hidden;
 
+}
+
+#futureLeaders{
+	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background-color: #00782d; 
+	background size:100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
  }
+
+#donate{
+	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background-color: #A60000;
+	background size:100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#blog{
+	background: url("../images/haiti2013-348.jpg" ) center center;
+	background-color: #a61912;
+	background size:100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#partnerships{
+	/*background: url("../images/haiti2013-17.jpg" ) center center fixed;*/
+	background-color: #00782d;
+	background size:100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+ /*visit panels*/
  #planVisit{
  	
  	background: url("../images/haiti2013-343.jpg" ) center center fixed;
@@ -86,27 +126,22 @@ panel{
 	overflow: hidden;
  }
 
-/*tinted stuff*/
+
  #prayers{
- 	
- 	background:
+	/*tinted stuff*/ 	
+	background:
  	linear-gradient(
       rgba(91, 3, 3, 0.85), 
       rgba(91, 3, 3, 0.85)
     ), url("../images/haiti2013-348.jpg" ) right center fixed;
-	background-color: #A60000; /*#201f20;*/
+
+	/*background: url("../images/haiti2013-348.jpg") center center fixed;*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
 
  }
 
- .tint{
- 	
-    height: inherit;
-    background-repeat: no-repeat;
-
- }
 
 
 #prayers p{
@@ -196,8 +231,10 @@ panel{
 #navigation{
 	width:100%;
 	height:90px;
-	background-color:#ff9400;
+	background-color: #000;/* #ff9400*/
+	padding-bottom: 0px;
 	margin-bottom:0px;
+	position: relative;
 
 }
 #navigation li{
@@ -329,12 +366,19 @@ panel{
 
 p {	
 color:#000;
+text-align: justify;
 font-size:1.5em;
+<<<<<<< HEAD
 padding-top:2em;
 padding-bottom:2em;
 line-height: 1.5em;
 text-align: justify;
 }
+=======
+line-height: 1.5em;
+padding-top:2px;
+padding-bottom:2px;}
+>>>>>>> adb8c6a29fda06bab1b36d10a7af03c018379e55
 
 
 
@@ -582,9 +626,14 @@ var {color:#949494;}
 
 
 h1 {
+<<<<<<< HEAD
 	font-size:5em;
 	font-family: 'Roboto', Helvetica, sans-serif;
+=======
+	font-size:8.1666em;
+>>>>>>> adb8c6a29fda06bab1b36d10a7af03c018379e55
 	line-height:1.2307em;
+	text-align: center;
 	color:#000;
 	padding:2px 0 8px 0;
 	text-align: center;
@@ -626,7 +675,7 @@ h1 {
 
 h2 {
 	font-size:5.75em;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	text-align: center;
 	/*line-height:1.2307em;*/
 	color:#000;
 	/*text-transform:uppercase;*/
@@ -640,7 +689,7 @@ h2 {
 
 h3 {
 	font-size:4.75em;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	text-align: center;
 	line-height:1.2307em;
 	color:#000;
 	/*text-transform:uppercase;*/
@@ -652,6 +701,7 @@ h3 {
 h4 {
 	font-size:3.333em;
 	line-height:1.2307em;
+	text-align: center;
 	color:#000;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
@@ -661,6 +711,7 @@ h4 {
 h5 {
 	font-size:2.666em;
 	line-height: 1em; 1.2307em;
+	text-align: center;
 	color:#000000;
 	text-transform:uppercase;
 	/*letter-spacing:-1px;*/
@@ -684,6 +735,7 @@ h5 {
 h6 {
 	font-size:1.666em;
 	line-height:1.2307em;
+	text-align: center;
 	color:#000;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
