@@ -164,16 +164,18 @@ panel{
 
  #prayers{ 	
 	background: url("../images/OrangeT.jpg" ) center center fixed;
-	background size 50%;
+	background size: 50%;
 	background-repeat: no-repeat;
 	overflow: hidden;
  }
 
-	/*background: url("../images/Haiti-color photos3.jpg") center center fixed;*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	overflow: hidden;
+#about{
+	background: url("../images/Darkblue Visit Us.jpg" ) center center;
+	background-color: #f4b85e; 
 
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
  }
 
 }
@@ -719,7 +721,7 @@ h3 {
 	font-size:4.75em;
 	text-align: center;
 	line-height:1.2307em;
-	color:#000;
+	color:#fff;
 	/*text-transform:uppercase;*/
 	padding:0px 0 0px 0;	
 	letter-spacing:-1px;
