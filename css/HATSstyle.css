@@ -86,8 +86,8 @@ panel{
 }
 
 #futureLeaders{
-	background: url("../images/Darkblue Visit Us.jpg" ) center center;
-	background-color: #00782d; 
+	
+	background-color: #511b00; 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -106,8 +106,8 @@ panel{
 }
 
 #blog{
-	background: url("../images/Haiti-color photos3.jpg" ) center center;
-	background-color: #a61912;
+	
+	background-color: #511b00;
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -229,8 +229,8 @@ panel{
 	padding-right:5%;
 }
 .normalMargin{
-	padding-left:20%;
-	padding-right:20%;
+	padding-left:15%;
+	padding-right:15%;
 }
 
 
