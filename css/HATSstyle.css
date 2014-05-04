@@ -18,8 +18,8 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body { 
 
 
-	background:url("../images/haiti2013-17.jpg") center center fixed;
-
+	background:url("../images/haiti2013-49.jpg") center center fixed;
+ 	background-size:100% 
 	background-color: #201f20;
 
 
@@ -86,8 +86,8 @@ panel{
 }
 
 #futureLeaders{
-	background: url("../images/Darkblue Visit Us.jpg" ) center center;
-	background-color: #00782d; 
+	
+	background-color: #f4b85e; 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -106,8 +106,8 @@ panel{
 }
 
 #blog{
-	background: url("../images/Haiti-color photos3.jpg" ) center center;
-	background-color: #a61912;
+	
+	background-color: #f4b85e;
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
