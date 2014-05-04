@@ -92,24 +92,19 @@ panel{
 /*tinted stuff*/
  #prayers{
  	
- 	background:
+	background:
  	linear-gradient(
       rgba(91, 3, 3, 0.85), 
       rgba(91, 3, 3, 0.85)
     ), url("../images/haiti2013-348.jpg" ) right center fixed;
-	background-color: #A60000; /*#201f20;*/
+
+	/*background: url("../images/haiti2013-348.jpg") center center fixed;*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
 
  }
 
- .tint{
- 	
-    height: inherit;
-    background-repeat: no-repeat;
-
- }
 
 
 #prayers p{
@@ -201,6 +196,7 @@ panel{
 	height:90px;
 	background-color: #fff;/* #ff9400*/
 	margin-bottom:0px;
+	position: relative;
 
 }
 #navigation li{
