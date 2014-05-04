@@ -277,6 +277,9 @@ panel{
 
 }	
 
+.navbar-header{
+	
+}
 
 
 /*Carousel
@@ -3247,13 +3250,6 @@ table tr:hover td {
 
 
 
-.container {
-
-
-	width:100%;
-
-
-}
 
 
 .button1-margin {
