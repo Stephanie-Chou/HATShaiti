@@ -178,6 +178,27 @@ panel{
 	overflow: hidden;
  }
 
+
+ #donatePage{
+	background: url("../images/Haiti-color photos.jpg" ) center center;
+	background-color: #9E9485; 
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+ }
+
+#sponsor{
+	background: url("../images/Blue Sponsor.jpg" ) center center;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+ }
+
+
 }
 .crop{
 	float:left;
@@ -734,7 +755,7 @@ h4 {
 	font-family:'Oswald', sans-serif;
 	line-height:1.2307em;
 	text-align: center;
-	color:#000;
+	color:#fff;
 	/*text-transform:uppercase;*/
 	letter-spacing:-1px;
 	padding:0px 0 0px 0;
