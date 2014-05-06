@@ -90,7 +90,7 @@ panel{
 
 #futureLeaders{
 	
-	background-color: #f4b85e; 
+	background-color: #9E9485; 
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -127,7 +127,7 @@ panel{
 #blog{
 	
 
-
+	background-color: #9E9485;
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -171,7 +171,7 @@ panel{
 
 #about{
 	background: url("../images/Darkblue Visit Us.jpg" ) center center;
-	background-color: #f4b85e; 
+	background-color: #9E9485; 
 
 	background-size: cover;
 	background-repeat: no-repeat;
