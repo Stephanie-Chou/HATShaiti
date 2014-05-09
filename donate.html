@@ -64,14 +64,12 @@
       <div class="normalMargin">
 
         <h5>You can make a Difference</h5>
-        <p> 
-          <label for="amount">Donation amount ($50 increments)</label> 
-          <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;" />
-          <p id="amount-details"> Did you know $1000 pays a teacher salary for a 7 months?</p>
-        </p>
-
-<div id="slider"></div>
-
+        
+          <!--<label for="amount">Donation amount ($50 increments)</label> -->
+          <h5 id="amount"></h5> 
+          <p id="amount-details"> Did you know $1000 pays a teacher salary for a 7 months? Use the slider to find out what you can do.</p>
+          
+          <div id="slider"></div>
       </div>
     </panel>
 
@@ -99,11 +97,10 @@
 
     <panel id="yellow">
       <div class="normalMargin">
-
+        <h5> Donation Details </h5>
         <p>All donations to the Hands Across the Sea Association for the work in Haiti are tax deductible. Donated funds are forwarded to Haiti to be used for our programs and services. For the 2012 – 2013 fiscal year, the overhead costs for Hands Across the Sea were less than 5%.</p>
  
-        <p>Cheque:</p>
-        <p>To Hands Across the Sea Association and send to Hands Across the Sea, Box 101, Yarmouth, NS B5A 4B1.</p>
+        <p><strong>Cheque:</strong> To Hands Across the Sea Association and send to Hands Across the Sea, Box 101, Yarmouth, NS B5A 4B1.</p>
 
       </div>
     </panel>
@@ -120,30 +117,33 @@
       max: 250,
       step: 50,
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.value);
+        $( "#amount" ).empty();
+        $( "#amount" ).append( "$" + ui.value);
         if (ui.value== 0){
           $("#amount-details").empty();
           $("#amount-details").append("Donate Today! Did you know $750 pays a house mom salary for 6 months?");
         }
         else if (ui.value== 50){
           $("#amount-details").empty();
-          $("#amount-details").append("$50 buys rice for a family of 5 for 24 days");
+          $("#amount-details").append("buys rice for a family of 5 for 24 days");
         }
         else if (ui.value== 100){
           $("#amount-details").empty();
-          $("#amount-details").append("$100 buys beans for 8 families for 12 days ");
+          $("#amount-details").append("buys beans for 8 families for 12 days ");
         }
         else if (ui.value== 150){
           $("#amount-details").empty();
-          $("#amount-details").append("$150 pays a security guard salary for a month");
+          $("#amount-details").append("pays a security guard salary for a month");
         }
         else if (ui.value== 200){
           $("#amount-details").empty();
-          $("#amount-details").append("$200 buys books for 4 students");
+          $("#amount-details").append("buys books for 4 students");
         }
         else{
+          $( "#amount" ).empty();
+          $( "#amount" ).append( "$1000");
           $("#amount-details").empty();
-          $("#amount-details").append("$1000 pays a teacher salary for a 7 months");
+          $("#amount-details").append("pays a teacher salary for a 7 months");
         }
 
       }
