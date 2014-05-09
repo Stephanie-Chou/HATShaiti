@@ -180,7 +180,7 @@ panel{
 
 
  #donatePage{
-	background: url("../images/Haiti-color photos.jpg" ) center center;
+	background: url("../images/Orange Walk.jpg" ) center center;
 	background-color: #9E9485; 
 
 	background-size: cover;
@@ -190,7 +190,7 @@ panel{
  }
 
 #sponsor{
-	background: url("../images/Blue Sponsor.jpg" ) center center;
+	background: url("../images/Yellow Girls.jpg" ) center center;
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -263,18 +263,9 @@ panel{
 
 /*slider*/
 
-#slider{
-	width:100%;
+#amount-details{
+	color:#fff;
 }
-
-.selector{
-
-}
-
-.amount{
-
-}
-
 	
 #rectangle{
 	width:100%;

@@ -64,10 +64,11 @@
       <div class="normalMargin">
 
         <h5>You can make a Difference</h5>
-        <p>
-  <label for="amount">Donation amount ($50 increments):</label>
-  <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;" />
-</p>
+        <p> 
+          <label for="amount">Donation amount ($50 increments)</label> 
+          <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;" />
+          <p id="amount-details"> Did you know $1000 pays a teacher salary for a 7 months?</p>
+        </p>
 
 <div id="slider"></div>
 
@@ -116,13 +117,40 @@
     $( "#slider" ).slider({
       value:100,
       min: 0,
-      max: 500,
+      max: 250,
       step: 50,
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.value );
+        $( "#amount" ).val( "$" + ui.value);
+        if (ui.value== 0){
+          $("#amount-details").empty();
+          $("#amount-details").append("Donate Today! Did you know $750 pays a house mom salary for 6 months?");
+        }
+        else if (ui.value== 50){
+          $("#amount-details").empty();
+          $("#amount-details").append("$50 buys rice for a family of 5 for 24 days");
+        }
+        else if (ui.value== 100){
+          $("#amount-details").empty();
+          $("#amount-details").append("$100 buys beans for 8 families for 12 days ");
+        }
+        else if (ui.value== 150){
+          $("#amount-details").empty();
+          $("#amount-details").append("$150 pays a security guard salary for a month");
+        }
+        else if (ui.value== 200){
+          $("#amount-details").empty();
+          $("#amount-details").append("$200 buys books for 4 students");
+        }
+        else{
+          $("#amount-details").empty();
+          $("#amount-details").append("$1000 pays a teacher salary for a 7 months");
+        }
+
       }
     });
     $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
+    
+        
   });
   </script>  
 </body>
