@@ -11,15 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/jquery.ui.all.css" type="text/css" media="all">
-    <script type="text/javascript" src="js/jquery-1.10.2.js">  </script>
-    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.slider.js">  </script>
 
-  
-
-  <script type="text/javascript" src="js/bootstrap.js">  </script>
   
 </head>
 
@@ -70,6 +62,13 @@
           <p id="amount-details"> Did you know $1000 pays a teacher salary for a 7 months? Use the slider to find out what you can do.</p>
           
           <div id="slider"></div>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="btn_donate">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ADCJESEYGBMBS">
+            <input type="image" src="http://i.imgur.com/Ls6mob1.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
       </div>
     </panel>
 
@@ -109,6 +108,12 @@
     </div>  
   </div>
 
+  <script type="text/javascript" src="js/jquery-1.10.2.js">  </script>
+  <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.slider.js">  </script>
+  <script type="text/javascript" src="js/bootstrap.js">  </script>
   <script>
   $(function() {
     $( "#slider" ).slider({
