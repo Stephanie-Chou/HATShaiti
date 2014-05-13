@@ -90,7 +90,7 @@ panel{
 
 #futureLeaders{
 	
-	background-color: #9E9485; 
+	background-color: #eea34b; /*#9E9485*/
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -127,7 +127,7 @@ panel{
 #blog{
 	
 
-	background-color: #9E9485;
+	background-color: #eea34b;
 	background-size:cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -237,7 +237,7 @@ panel{
 
 }
 #yellow{
-	background-color: #9E9485;/*#FFDC73;*/
+	background-color: #eea34b;/*#FFDC73; #9E9485*/
 
 }
 
@@ -275,6 +275,7 @@ panel{
 .normalMargin{
 	padding-left:15%;
 	padding-right:15%;
+	padding-bottom:10%;
 }
 
 
@@ -3878,7 +3879,7 @@ figure.fright {
 ---------------------------------------- */
 
 .footer{
-	background-color:#9E9485;
+	background-color:#eea34b;
 	width:100%;
 	/*min-height:100%;*/
 	border:none;
@@ -3896,6 +3897,7 @@ figure.fright {
 
 .footer p{
 	color: #fff;
+	font-size: 1em;
 }
 
 footer {
