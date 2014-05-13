@@ -3,19 +3,14 @@
 <head>
 <title> HATShaiti </title>
   <meta charset="utf-8">
-        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/HATSstyle.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/jquery.ui.all.css" type="text/css" media="all">
-
-  
 </head>
-
-
 
 <body>
   <!-- Fixed navbar -->
@@ -122,43 +117,31 @@
       max: 250,
       step: 50,
       slide: function( event, ui ) {
-        $( "#amount" ).empty();
-        $( "#amount" ).append( "$" + ui.value);
+        $( "#amount" ).text( "$" + ui.value);
         if (ui.value== 0){
-          $("#amount-details").empty();
-          $("#amount-details").append("Donate Today! Did you know $750 pays a house mom salary for 6 months?");
+          $("#amount-details").text("Donate Today! Did you know $750 pays a house mom salary for 6 months?");
         }
         else if (ui.value== 50){
-          $("#amount-details").empty();
-          $("#amount-details").append("buys rice for a family of 5 for 24 days");
+          $("#amount-details").text("buys rice for a family of 5 for 24 days");
         }
         else if (ui.value== 100){
-          $("#amount-details").empty();
-          $("#amount-details").append("buys beans for 8 families for 12 days ");
+          $("#amount-details").text("buys beans for 8 families for 12 days ");
         }
         else if (ui.value== 150){
-          $("#amount-details").empty();
-          $("#amount-details").append("pays a security guard salary for a month");
+          $("#amount-details").text("pays a security guard salary for a month");
         }
         else if (ui.value== 200){
-          $("#amount-details").empty();
-          $("#amount-details").append("buys books for 4 students");
+          $("#amount-details").text("buys books for 4 students");
         }
         else{
-          $( "#amount" ).empty();
-          $( "#amount" ).append( "$1000");
-          $("#amount-details").empty();
-          $("#amount-details").append("pays a teacher salary for a 7 months");
+          $("#amount").text("$1000");
+          $("#amount-details").text("pays a teacher salary for a 7 months");
         }
 
       }
     });
     $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
-    
-        
   });
   </script>  
 </body>
-
-
 </html>
