@@ -84,18 +84,20 @@ panel{
 
 .btn_donate{
 	position: relative;
-	padding: 15px 0px;
+	padding: 50px 0px 15px;
 	text-align: center;
-}
-/*
-#blog h5{
-	color:#000;
 }
 
 #blog p{
-	color:#000;
+	text-align: center !important;
 }
-*/
+
+#blog a{
+	text-decoration: underline !important;
+}
+#blog a:hover, a:active{
+	color: #DDD;
+}
 
 #blog{
 	
@@ -318,7 +320,7 @@ abbr[title], dfn[title] {
 	text-transform:uppercase;
 }
 
-strong   		   {color:#000;}
+strong   		   {color:#FFF;}
 
 em, dfn  		   { color:#fefefe;}
 
@@ -374,6 +376,10 @@ var {color:#949494;}
 ::-moz-selection {
 	background: #333;
 	color:#fff;/* Firefox */
+}
+
+.text-white{
+	color: #fff !important;
 }
 
 h1 {
@@ -483,10 +489,9 @@ h6 {
 	padding:5px 0 0px 0;
 }
 
-
-<<<<<<< HEAD
-
-
+.text-address{
+	font-size: 1.5em;
+}
 
 .typograph-title {
 
@@ -3585,6 +3590,7 @@ figure.fright {
 .footer p{
 	color: #fff;
 	font-size: 1em;
+	text-align: center !important;
 }
 
 footer {
