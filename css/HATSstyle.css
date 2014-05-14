@@ -261,7 +261,10 @@ text-align: justify;
 
 /*----- txt, links, lines, titles -----*/
 
-a { color:#fff; outline:none; text-decoration:none;}
+a {
+	color:#fff; 
+	outline:none; 
+	text-decoration:none;}
 
 a:hover, a:focus { color: #D8D8D8;}
 
