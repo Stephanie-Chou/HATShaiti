@@ -20,6 +20,10 @@ body {
 	width: 100%;
 }
 
+.no-padding{
+	padding: 0px !important;
+}
+
 html { min-width:1000px;}
 
 html, body { height:100%;}
