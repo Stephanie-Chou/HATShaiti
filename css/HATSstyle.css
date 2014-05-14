@@ -137,7 +137,7 @@ panel{
 
  #prayers{ 	
 	background: url("../images/OrangeT.jpg" ) center center fixed;
-	background-size: 50%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow: hidden;
  }
