@@ -51,12 +51,18 @@ panel{
 /*index Panels*/
 
 #video{
-	background: url("../images/haiti2013-541.jpg" ) center center;
+	/*background: url("../images/haiti2013-541.jpg" ) center center;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	background-color: #000;
 	height:500px;
 	overflow: hidden;
 
+}
+
+video{
+	margin-top:30px ;
+	width: 100%;
 }
 
 #futureLeaders{
@@ -210,6 +216,8 @@ header{
 	z-index:20;
 }
 	
+
+
 /*slider*/
 
 #amount-details{
