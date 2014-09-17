@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HATS Haiti - Donate</title>
+  <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/HATSstyle.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/jquery.ui.all.css" type="text/css" media="all">
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"> <img src="images/hats.jpg"></a>
+          <a class="navbar-brand" href="index.html">HATS-Haiti</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="#">Donate</a></li>
+            <li><a href="visit.html"> Visit</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  <div class="normalMargin">
+
+
+  <!--DONATE -->  
+    <panel id="donatePage">
+      <div class="normalMargin">
+
+        <h2>DONATE</h2>
+        <h5>Even a little can go a long way. What Can You Give?</h5>
+        <h5></h5>
+
+      </div>
+    </panel>
+
+<!--YOU CAN MAKE A DIFFERENCE -->
+
+    <panel id="yellow">
+      <div class="normalMargin">
+
+        <h5>You can make a Difference</h5>
+        
+          <!--<label for="amount">Donation amount ($50 increments)</label> -->
+          <h5 id="amount"></h5> 
+          <p id="amount-details"> Did you know $1000 pays a teacher salary for a 7 months? Use the slider to find out what you can do.</p>
+          
+          <div id="slider"></div>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="btn_donate">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ADCJESEYGBMBS">
+            <input type="image" src="http://i.imgur.com/Ls6mob1.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
+      </div>
+    </panel>
+<!--SPONSOR A CHILD -->
+    <panel id="sponsor">
+      <div class="normalMargin">
+        <h2>SPONSOR A CHILD</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h5><font color="#fff">$275</font></h5>
+            <p><font color="#fff">per year to sponsor a child from preschool to grade 6, which is less than $23 per month.</font></p>
+          </div>
+          <div class="col-md-4">
+            <h5><font color="#fff">$375</font></h5>
+            <p><font color="#fff">per year for high school sponsorship, which is about $1 per day. </font></p>
+        </div>
+          <div class="col-md-4">
+            <h5><font color="#fff">100%</font></h5>
+          <p><font color="#fff">of our grade 6 students passed the governmental exams in June 2009</font></p></div>
+        </div>
+        <p>School sponsorship provides an excellent education to children whose families cannot afford the costs of tuition, books and uniforms.  Our school children also receive a high-nutrition drink at recess and a hot lunch every school day. School sponsorship covers the cost of uniforms, textbooks and schooling for the year, including nutritional support.
+        </p>
+      </div>
+    </panel>
+
+<!--DONATION DETAILS -->
+    <panel id="yellow">
+      <div class="normalMargin">
+        <h5> Donation Details </h5>
+        <p>All donations to the Hands Across the Sea Association for the work in Haiti are tax deductible. Donated funds are forwarded to Haiti to be used for our programs and services. For the 2012 – 2013 fiscal year, the overhead costs for Hands Across the Sea were less than 5%.</p>
+ 
+        <p><strong>CHEQUE:</strong> To Hands Across the Sea Association and send to</p>
+        <address class="text-white text-center text-address">
+        <strong>Hands Across the Sea</strong><br>
+        Box 101,<br>
+        Yarmouth, NS B5A 4B1<br>
+      </address>
+
+      </div>
+    </panel>
+    <div class="footer">
+      <p>This site was created and designed by students of the University of Illinois at Urbana-Champaign and Parkland College</p>
+    </div>  
+  </div>
+
+  <script type="text/javascript" src="js/jquery-1.10.2.js">  </script>
+  <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.mouse.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.slider.js">  </script>
+  <script type="text/javascript" src="js/bootstrap.js">  </script>
+  <script>
+  $(function() {
+    $( "#slider" ).slider({
+      value:100,
+      min: 0,
+      max: 250,
+      step: 50,
+      slide: function( event, ui ) {
+        $( "#amount" ).text( "$" + ui.value);
+        if (ui.value== 0){
+          $("#amount-details").text("Donate Today! Did you know $750 pays a house mom salary for 6 months?");
+        }
+        else if (ui.value== 50){
+          $("#amount-details").text("buys rice for a family of 5 for 24 days");
+        }
+        else if (ui.value== 100){
+          $("#amount-details").text("buys beans for 8 families for 12 days ");
+        }
+        else if (ui.value== 150){
+          $("#amount-details").text("pays a security guard salary for a month");
+        }
+        else if (ui.value== 200){
+          $("#amount-details").text("buys books for 4 students");
+        }
+        else{
+          $("#amount").text("$1000");
+          $("#amount-details").text("pays a teacher salary for a 7 months");
+        }
+
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
+  });
+  </script>  
+</body>
+</html>

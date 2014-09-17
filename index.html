@@ -1,59 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>HATS Haiti</title>
+  <meta charset="utf-8">
+  	<link rel="shortcut icon" href="images/favicon.jpg">
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Hatshaiti : ">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/HATSstyle.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+</head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<!-- THIS IS THE HOME PAGE-->
 
-    <title>Hatshaiti</title>
-  </head>
+<body>
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Stephanie-Chou/HATShaiti">View on GitHub</a>
-
-          <h1 id="project_title">Hatshaiti</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Stephanie-Chou/HATShaiti/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Stephanie-Chou/HATShaiti/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> <img src="images/hats.jpg"></a>
+          <a class="navbar-brand" href="#">HATS-Haiti</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<div class="normalMargin">
+	<!--VIDEO-->
+	
+	
+	
+	<panel id="video">
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/4y5aV2ANVIk?rel=0" frameborder="0" allowfullscreen></iframe>
+	</panel>
+   
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	<panel id="futureLeaders">	
+		<div class="normalMargin">
+			<h5>Hands Across the Sea believes that children are the key to Haiti's future. Through education, children will become leaders in their families, in their communities and in their country.</h5>
+		</div>
+	</panel>		
+<!--DONATE TODAY -->
+	<panel id="donate">
+		
+		<div class="normalMargin">
 
-<p>HATS Haiti</p>
-      </section>
-    </div>
+			<h5>Donate Today</h5>
+			<p>
+				All donations to the Hands Across the Sea Association for the mission in Haiti are tax deductible. The board members function in a strictly volunteer capacity and we strive to keep our overhead costs low so that more of your generous donations can go to running our orphanage, school and community programs.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="btn_donate">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ADCJESEYGBMBS">
+            <input type="image" src="http://i.imgur.com/Ls6mob1.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+			
+		</div>
+	</panel>
+<!--KEEP UP WITH US -->
+	<panel id="blog">
+		<div class="normalMargin text-center">
+			<h5>Keep Up With Us</h5>
+			<p>Keep up to date with HATS-Haiti by visiting our <a href="http://hatshaiti.blogspot.com/" target="_blank">blog</a>.</p>
+		</div>
+	</panel>
+<!--MEET OUT PARTNERS -->
+	<panel id="partnerships">
+		<div class="normalMargin">
+			<h5> Meet Our Partners</h5>
+			<p>HATS – Haiti is overseen in Canada by the Hands Across The Sea Association, a non-profit board of directors with members from across Canada.</p>
+			<p>HATS – Haiti is also affiliated with another charitable organization, Education Haiti in Halifax, Nova Scotia. Education Haiti’s focus is to raise funds to enable a large number of children attend school in Haiti.</p>
+		</div>
+	</panel>
+<!--FOOTER-->
+		<div class="footer">
+			<p>This site was created and designed by students of the University of Illinois at Urbana-Champaign and Parkland College</p>
+		</div>
+</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Hatshaiti maintained by <a href="https://github.com/Stephanie-Chou">Stephanie-Chou</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<script type="text/javascript" src="js/jquery-1.10.2.js">  </script>
+	<script type="text/javascript" src="js/bootstrap.js">  </script>
+</body>
+>>>>>>> fcf262f1d21c9fe1040f56fac2bf4a0dc6b44139
 </html>
